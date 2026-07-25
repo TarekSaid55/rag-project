@@ -1,0 +1,7 @@
+[
+  {
+    "chunk_id": "sample.txt::0",
+    "source": "sample.txt",
+    "text": "Retrieval-Augmented Generation (RAG) is a technique that combines a retrieval system with a language model. Instead of relying only on what the model learned during training, RAG first searches a knowledge base for relevant text chunks, then feeds those chunks to the language model as context before it generates an answer. A typical RAG pipeline has the following stages: loading raw documents, cleaning and preprocessing the text, splitting the text into smaller chunks, converting each chunk into a vector embedding, storing those embeddings in a vector database, retrieving the most relevant chunks for a given question, and finally prompting a language model with the retrieved context to produce a grounded answer that can cite its sources. Replace this file with your own documents in data/raw/ (.txt or .pdf files), then re-run the pipeline scripts in order from 01_documents.py through 05_create_chroma_store.py."
+  }
+]
